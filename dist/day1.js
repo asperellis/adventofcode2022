@@ -1,4 +1,4 @@
-const readInput = require('../utils/readInput');
+const readInput = require('../src/utils/readInput');
 const toElf = (elfString, elfNumber) => {
     const food = elfString.split('\n').map(Number);
     return {

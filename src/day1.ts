@@ -1,4 +1,4 @@
-const readInput = require('../utils/readInput');
+const readInput = require('../src/utils/readInput');
 
 type Elf = {
     elfNumber: number,
