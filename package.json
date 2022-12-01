@@ -7,7 +7,7 @@
     "day": "1"
   },
   "scripts": {
-    "exec": "tsc && node dist/day%npm_config_day%.js",
+    "solve": "tsc && node dist/day%npm_config_day%.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
