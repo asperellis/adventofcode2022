@@ -1,4 +1,5 @@
-const fs = require('fs');
+import fs from "fs";
 
-module.exports = (day, solution) =>
-  fs.readFile(`src/inputs/${day}.txt`, 'utf8', (err, data) => solution(data));
+export const readInput = (day, solution) => {
+  fs.readFile(`src/inputs/${day}.txt`, "utf8", (err, data) => solution(data));
+};

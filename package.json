@@ -6,6 +6,7 @@
   "config": {
     "day": "1"
   },
+  "type": "module",
   "scripts": {
     "solve": "tsc && node dist/day%npm_config_day%.js",
     "test": "echo \"Error: no test specified\" && exit 1"
